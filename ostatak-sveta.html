@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Turistička agencija Putnik - Ostatak sveta</title>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+		<meta name="author" content="Mladen Bošković"/>
+    <meta name="description" content="Turistička agencija Putnik"/>
+		<meta name="keywords" content="putovanje, evropa, metropole"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="simpleLightbox.min.css"/>
+  </head>
+  <body>
+    <div id="slika-p">
+      <div id="header">
+        <div id="header-drzac">
+          <div id="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo"/></a>
+          </div>
+            <ul id="dd-meni">
+              <li><a href="index.html">POČETNA</a></li>
+              <li><a href="putovanja.html">PUTOVANJA</a>
+                <ul>
+                  <li><a href="evropa.html">Evropa</a></li>
+                  <li><a href="ostatak-sveta.html">Ostatak sveta</a></li>
+                </ul>
+              </li>
+              <li><a href="#kontakt" id="spustanje">KONTAKT</a></li>
+              <li><a href="o-nama.html">O NAMA</a>
+                <ul>
+                  <li><a href="o-autoru.html">O autoru</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="forma-o-s-t">
+      <h1>Ovde možete pogledati kompletan asortiman svetskih metropola</h1>
+    </div>
+
+    <div id="forma-p">
+      <div id="forma-p-drzac">
+        <div id="sortiranje">
+          <select id="ddlSortiraj3" form="forma1">
+            <option value="0">Način sortiranja</option>
+          </select>
+        </div>
+
+        <div id="pretraga">
+          <input type="text" id="tbPretraga" placeholder="Pretraga" autocomplete="on">
+          <input type="button" id="btnPretraga" value="Pretraži">
+        </div>
+      </div>
+    </div>
+
+    <div id="sadrzaj-o-s">
+    </div>
+
+    <div id="kontakt">
+      <div id="kontakt-drzac">
+        <div id="kontakt-tekst">
+            <h1>KONTAKTIRAJTE NAS</h1>
+            <img src="images/kontakt.png" alt="Simboli putovanja"/>
+            <h2>Tu smo da odgovorimo na svako Vaše pitanje</h2>
+            <span class="fa fa-phone"></span>037/637-821
+        </div>
+
+        <form id="forma1" action="#" method="post">
+          <table id="tabela">
+            <tr>
+              <th>Ime i prezime*</th>
+              <th>Email*</th>
+            </tr>
+            <tr>
+              <td><input type="text" id="tbIme" placeholder="Ime Prezime" autocomplete="on"/></td>
+              <td><input type="text" id="tbEmail" placeholder="ime.p83@gmail.com" autocomplete="on"/></td>
+            </tr>
+            <tr>
+              <th colspan="2">Poruka*</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <textarea id="poruka" placeholder="Poruka"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Pol*:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="pol"/>&nbsp;Muški&nbsp;&nbsp;&nbsp;<input type="radio" name="pol"/>Ženski
+              </td>
+              <td><input type="button" id="posalji" value="POŠALJI"/></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <div id="greske">
+    </div>
+
+    <div id="footer">
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+        <li><a href="sitemap.xml" target="_blank"><span class="fa fa-sitemap" aria-hidden="true"></span></a></li>
+        <li><a href="dokumentacija.pdf" target="_blank"><span class="fa fa-file-pdf-o" aria-hidden="true"></span></a></li>
+      </ul>
+
+      <p>Copyright &copy; Putnik</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="simpleLightbox.min.js"></script>
+  </body>
+</html>

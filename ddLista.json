@@ -1,0 +1,18 @@
+[
+  {
+    "value" : 1,
+    "tekst" : "Cena rastuća"
+  },
+  {
+    "value" : 2,
+    "tekst" : "Cena opadajuća"
+  },
+  {
+    "value" : 3,
+    "tekst" : "Naziv A-Z"
+  },
+  {
+    "value" : 4,
+    "tekst" : "Naziv Z-A"
+  }
+]

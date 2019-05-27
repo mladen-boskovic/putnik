@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+  font-family: 'Raleway', sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+#header{
+  width: 100%;
+  background-color: #020B13;
+  opacity: 0.75;
+}
+
+#header-drzac{
+  margin: 0px auto;
+  width: 1300px;
+  position: relative;
+}
+
+#logo{
+  margin-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#dd-meni{
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  font-weight: bold;
+}
+
+#dd-meni, #dd-meni ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+#dd-meni li{
+  float:left;
+}
+
+#dd-meni a{
+  padding: 10px;
+  display: block;
+  width: 150px;
+  font-size: 20px;
+}
+
+#dd-meni a:link{
+  color: white;
+}
+
+#dd-meni a:visited{
+  color: white;
+}
+
+#dd-meni li ul{
+  position: absolute;
+  left: -1000em;
+  width: 150px;
+  background-color: #020B13;
+  opacity: 0.9;
+}
+
+#dd-meni li:hover ul, #dd-meni li ul:hover{
+  left: auto;
+}
+
+#dd-meni li:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#tabela{
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#tabela tr td{
+  padding: 5px;
+}
+
+#tabela th{
+  text-align: left;
+  padding-left: 5px;
+}
+
+#tbIme{
+  width: 100%;
+  height: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  outline: none;
+}
+
+.cssBorder{
+  border: 1px solid #A9A9A9;
+}
+
+#tbEmail{
+  width: 100%;
+  height: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  outline: none;
+}
+
+#poruka{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  height: 175px;
+  font-size: 15px;
+  resize: vertical;
+  min-height: 100px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  outline: none;
+}
+
+#posalji{
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border: 1px solid #A9A9A9;
+}
+
+#kontakt{
+  width: 100%;
+  background-color: #F5F5F5;
+  border-top: 1px solid #DCDCDC;
+}
+
+#kontakt-drzac{
+  width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#kontakt-tekst{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+
+#kontakt-tekst h1{
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+#kontakt-tekst img{
+  margin-bottom: 25px;
+}
+
+#kontakt-tekst h2{
+  margin-bottom: 25px;
+}
+
+#kontakt-tekst span{
+  margin-bottom: 25px;
+}
+
+#footer{
+  width: 100%;
+  height: 200px;
+  background-color: #020B13;
+  text-align: center;
+}
+
+#footer ul li{
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#footer ul li a:link{
+  color: #A9A9A9;
+}
+
+#footer ul li a:visited{
+  color: #A9A9A9;
+}
+
+#footer ul li a:hover{
+  color: #F5F5F5;
+}
+
+#footer p{
+  color: #A9A9A9;
+  font-size: 15px;
+}
+
+#footer ul{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#greske{
+  width: 100%;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+#greske ul li{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: red;
+  font-weight: bold;
+}
+
+#greske ul{
+  padding-bottom: 5px;
+}
+
+#sadrzaj-p{
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  padding-bottom: 25px;
+}
+
+.putovanja{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.putovanja p{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.vise{
+  display: flex;
+  justify-content: center;
+}
+
+.vise span{
+  padding-bottom: 5px;
+}
+
+.opis{
+  border-left: 1px solid #A9A9A9;
+  border-right: 1px solid #A9A9A9;
+  border-bottom: 1px solid #A9A9A9;
+  background-color: #F0FFFF;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#slika-p{
+  background: url("images/slika-putovanja.jpeg") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#forma-p{
+  width: 100%;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+#forma-p-drzac{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 1300px;
+  padding-bottom: 10px;
+}
+
+#ddlSortiraj{
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #A9A9A9;
+  height: 35px;
+  font-size: 15px;
+}
+
+#ddlSortiraj2{
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #A9A9A9;
+  height: 35px;
+  font-size: 15px;
+}
+
+#ddlSortiraj3{
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #A9A9A9;
+  height: 35px;
+  font-size: 15px;
+}
+
+#tbPretraga{
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #A9A9A9;
+  height: 35px;
+  font-size: 15px;
+}
+
+#btnPretraga{
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #A9A9A9;
+  height: 35px;
+  font-size: 15px;
+  width: 80px;
+}
+
+#forma-p-t{
+  width: 100%;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+#forma-p-t h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+#sredina{
+  width: 100%;
+}
+
+#sredina-drzac{
+  width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.album img{
+  width: 100px;
+}
+
+.sakriven{
+  display: none;
+}
+
+
+.trenutna{
+  width: 100%;
+  height: 500px;
+}
+
+#header-index{
+  width: 100%;
+  background-color: #020B13;
+  opacity: 0.75;
+  position: absolute;
+  top: 0px;
+}
+
+#slajder img{
+  display: none;
+}
+
+#slajder .trenutna{
+  display: block;
+}
+
+#objekti{
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  padding-bottom: 25px;
+  border-top: 1px solid black;
+}
+
+#index-t{
+  width: 100%;
+  text-align: center;
+}
+
+#index-t h1{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#slika-o-a{
+  background: url("images/slika-o-autoru.jpeg") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#naslov-o-a{
+  width: 100%;
+  text-align: center;
+}
+
+#naslov-o-a h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sadrzaj-o-a{
+  width: 100%;
+}
+
+#o-autoru-drzac{
+  margin: 0px auto;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+#tekst-o-a{
+  text-align: justify;
+  width: 300px;
+}
+
+#slika-o-n{
+  background: url("images/slika-o-nama.jpeg") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.nijeDobro{
+  border: 2px solid red;
+}
+
+#sadrzaj-o-n{
+  width: 100%;
+}
+
+#o-nama-t{
+  width: 500px;
+  text-align: justify;
+  text-indent: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#o-nama-drzac{
+  width: 800px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sadrzaj-o-n img{
+}
+
+#o-nama-t{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#naslov-o-n{
+  width: 100%;
+  text-align: center;
+}
+
+#naslov-o-n h1{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#forma-e-t{
+ width: 100%;
+ text-align: center;
+ background-color: #F5F5F5;
+}
+
+#forma-e-t h1{
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+#sadrzaj-e{
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  padding-bottom: 25px;
+}
+
+#forma-o-s-t{
+  width: 100%;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+#forma-o-s-t h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sadrzaj-o-s{
+ width: 1300px;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 0px auto;
+ padding-bottom: 25px;
+}

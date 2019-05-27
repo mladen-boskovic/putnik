@@ -1,0 +1,107 @@
+[
+  {
+    "ime" : "Budimpešta",
+    "slika" : "budimpesta",
+    "cena" : 200,
+    "alt" : "Budimpešta",
+    "id" : 1
+  },
+  {
+    "ime" : "London",
+    "slika" : "london",
+    "cena" : 650,
+    "alt" : "London",
+    "id" : 1
+  },
+  {
+    "ime" : "Havana",
+    "slika" : "havana",
+    "cena" : 1100,
+    "alt" : "Havana",
+    "id" : 2
+  },
+  {
+    "ime" : "Amsterdam",
+    "slika" : "amsterdam",
+    "cena" : 350,
+    "alt" : "Amsterdam",
+    "id" : 1
+  },
+  {
+    "ime" : "Atina",
+    "slika" : "atina",
+    "cena" : 250,
+    "alt" : "Atina",
+    "id" : 1
+  },
+  {
+    "ime" : "Berlin",
+    "slika" : "berlin",
+    "cena" : 350,
+    "alt" : "Berlin",
+    "id" : 1
+  },
+  {
+    "ime" : "Bangkok",
+    "slika" : "bangkok",
+    "cena" : 1400,
+    "alt" : "Bangkok",
+    "id" : 2
+  },
+  {
+    "ime" : "Buenos Ajres",
+    "slika" : "buenos-ajres",
+    "cena" : 950,
+    "alt" : "Buenos Ajres",
+    "id" : 2
+  },
+  {
+    "ime" : "Pariz",
+    "slika" : "pariz",
+    "cena" : 600,
+    "alt" : "Pariz",
+    "id" : 1
+  },
+  {
+    "ime" : "Rim",
+    "slika" : "rim",
+    "cena" : 350,
+    "alt" : "Rim",
+    "id" : 1
+  },
+  {
+    "ime" : "Manila",
+    "slika" : "manila",
+    "cena" : 1200,
+    "alt" : "Manila",
+    "id" : 2
+  },
+  {
+    "ime" : "Lisabon",
+    "slika" : "lisabon",
+    "cena" : 700,
+    "alt" : "Lisabon",
+    "id" : 1
+  },
+  {
+    "ime" : "Tokio",
+    "slika" : "tokio",
+    "cena" : 1300,
+    "alt" : "Tokio",
+    "id" : 2
+  },
+  {
+    "ime" : "Kairo",
+    "slika" : "kairo",
+    "cena" : 1050,
+    "alt" : "Kairo",
+    "id" : 2
+  },
+  {
+    "ime" : "Monte Karlo",
+    "slika" : "monte-karlo",
+    "cena" : 1200,
+    "alt" : "Monte Karlo",
+    "id" : 1
+  }
+]
